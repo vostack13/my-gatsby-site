@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
