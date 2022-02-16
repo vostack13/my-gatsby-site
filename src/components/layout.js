@@ -24,16 +24,24 @@ const Layout = ({ pageTitle, children }) => {
                 Home
               </Link>
             </li>
+
             <li className={s.navLinkItem}>
               <Link to="/about" className={s.navLinkText}>
                 About
               </Link>
             </li>
+
             <li className={s.navLinkItem}>
-            <Link to="/blog" className={s.navLinkText}>
-              Blog
-            </Link>
-          </li>
+              <Link to="/blog" className={s.navLinkText}>
+                Blog
+              </Link>
+            </li>
+
+            <li className={s.navLinkItem}>
+              <Link to="/ssr" className={s.navLinkText}>
+                SSR
+              </Link>
+            </li>
           </ul>
         </nav>
         <main>
